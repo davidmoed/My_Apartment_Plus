@@ -1,5 +1,5 @@
 
-<h1>My Apartment+<./h1>
+<h1>My Apartment+</h1>
 
 <h2>A minimalist landing page for apartment hunting, made easy.</h2>
 
