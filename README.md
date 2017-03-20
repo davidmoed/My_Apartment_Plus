@@ -14,4 +14,4 @@
 
 <h4>What's My Apartment+ Made Of?</h4>
 
-<p>My Apartment+ is an exercise in databasing and data aggregation from multiple sites. It gives the user the power to check across the web and narrow their search using a minimalist, straightforward process.</p>
+<p>My Apartment+ is an exercise in databasing, form filling, and data aggregation from multiple sites. It gives the user the power to check across the web and narrow their search using a minimalist, straightforward process.</p>
