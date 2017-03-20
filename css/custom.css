@@ -1,0 +1,39 @@
+body {
+	margin-bottom: 50px;
+}
+
+h1 {
+	text-align:center;
+}
+
+h2 { 
+	text-align:center;
+}
+
+
+/* basic info section */
+.basic-info-input {
+	padding: 10px;
+}
+
+.form-sections {
+	margin: 50px 0;
+}
+
+.form-sections form {
+	text-align:center;
+}
+
+
+/* amenities section */
+.amenities {
+	text-align:center;
+}
+
+.amenities form {
+	padding: 30px;
+}
+
+.amenities form td{
+	padding: 20px;
+}
