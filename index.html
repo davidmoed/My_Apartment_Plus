@@ -45,24 +45,34 @@
 					<table>
 						<tr>
 							<td class="basic-info-input">
-								<h4>State:</h4><input type="text" name="state"></input>
+								<h4>State:</h4><input type="text" name="state" class="form-control"></input>
 							</td>
 							<td class="basic-info-input">
-								<h4>City:</h4><input type="text" name="city"></input>
+								<h4>City:</h4><input type="text" name="city" class="form-control"></input>
 							</td>
 							<td class="basic-info-input">
-								<h4>Neighborhood:</h4><input type="text" name="neightborhood"></input>
+								<h4>Neighborhood:</h4><input type="text" name="neightborhood" class="form-control"></input>
 							</td>
 						</tr>
 						<tr>
+							<td>
+								<h4>Rent</h4>
+									  <label>
+										<div id="rent-slider-size">
+											<div id="slider3">
+											  <span class="ui-slider-value first"></span>
+											  <span class="ui-slider-value last"></span>
+											</div>	
+										</div>
+									</label>
+							</td>
+						</tr>
+						<tr>	
 							<td class="basic-info-input">
-								<h4>Rent:</h4><input type="text" name="rent"></input> 
-							</td>	
-							<td class="basic-info-input">
-								<h4>Bedrooms:</h4><input type="text" name="bedrooms"></input>
+								<h4>Bedrooms:</h4><input type="text" name="bedrooms" class="form-control"></input>
 							</td>
 							<td class="basic-info-input">
-								<h4>Bathrooms:</h4><input type="text" name="bathrooms"></input>
+								<h4>Bathrooms:</h4><input type="text" name="bathrooms" class="form-control"></input>
 							</td>
 						</tr>
 					</table>
@@ -195,6 +205,7 @@
 		<script src="js/flat-ui.min.js"></script>
 		<script src="js/flat-ui.js"></script>
 		<script src="js/application.js"></script>
+		<script src="js/slider.js"></script>
 
 		<script>
 		  videojs.options.flash.swf = "js/vendors/video-js.swf"
