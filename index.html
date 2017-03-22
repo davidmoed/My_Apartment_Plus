@@ -54,10 +54,14 @@
 								<h4>Neighborhood:</h4><input type="text" name="neightborhood" class="form-control"></input>
 							</td>
 						</tr>
+					</table>
+					<table>
 						<tr>
 							<td>
 								<h4>Rent</h4>
 									  <label>
+										<input type="hidden" name="rent-low" id="amount" readonly style="border:0; font-weight:bold;">
+										<input type="hidden" name="rent-high" id="amount1" readonly style="border:0; font-weight:bold;">
 										<div id="rent-slider-size">
 											<div id="slider3">
 											  <span class="ui-slider-value first"></span>
@@ -67,6 +71,8 @@
 									</label>
 							</td>
 						</tr>
+					</table>
+					<table>
 						<tr>	
 							<td class="basic-info-input">
 								<h4>Bedrooms:</h4><input type="text" name="bedrooms" class="form-control"></input>
@@ -74,6 +80,9 @@
 							<td class="basic-info-input">
 								<h4>Bathrooms:</h4><input type="text" name="bathrooms" class="form-control"></input>
 							</td>
+							<!-- send type as apartment -->
+							<input type="hidden" name="home-type" value="apartment"></input>
+							
 						</tr>
 					</table>
 				</form> 	
