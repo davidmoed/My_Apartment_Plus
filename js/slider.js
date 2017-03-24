@@ -22,6 +22,11 @@ $(function() {
 		$( "#amount1" ).val( Number(ui.values[1] * slider3ValueMultiplier) );
 		}
 	  });
+	  
+	  if (slider3.values > 0) {
+			$( "#amount" ).val( Number(values[0] * slider3ValueMultiplier) );
+			$( "#amount1" ).val( Number(values[1] * slider3ValueMultiplier) );
+		}
 
 	  slider3Options = $slider3.slider("option");
 	  $slider3.addSliderSegments(slider3Options.max)
