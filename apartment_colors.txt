@@ -1,0 +1,3 @@
+starry #41779f
+lighter #5b93bc
+darker #609ecc
