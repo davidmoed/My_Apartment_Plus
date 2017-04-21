@@ -13,7 +13,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Loading Flat UI -->
-    <link href="css/flat-ui.css" rel="stylesheet">
     <link href="css/flat-ui.min.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="favicon.ico">
